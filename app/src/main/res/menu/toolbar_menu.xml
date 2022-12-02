@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_addcontact"
+        android:title="@string/add_contact"
+        android:icon="@drawable/ic_baseline_person_add_24"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/action_favorite"
+        android:title="@string/favorite"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/setting"
+        android:icon="@drawable/ic_baseline_settings_24"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_feedback"
+        android:title="@string/feedback"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action_close"
+        android:title="@string/close"
+        app:showAsAction="never"
+        />
+
+</menu>
